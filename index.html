@@ -39,6 +39,9 @@
             opacity: 0;
             animation: fade-in 1.2s ease-out forwards;
         }
+        .menu-item.full-width {
+            flex: 1 1 100%; /* Ocupa toda la fila */
+        }
         .menu-item:hover {
             transform: scale(1.05);
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -98,46 +101,60 @@
 <body>
     <header>
         <h1>¡Bienvenidos, somos el grupo número 10!</h1>
-        <p>de la Comision 1.2 de la carrera de Programación,Estos son nuestros trabajos realizados durante el semestre en Arquitectura de Sistemas Operativos</p>
+        <p>Comisión 1.2 de la carrera de Programación, Estos son nuestros trabajos realizados durante el semestre en Arquitectura de Sistemas Operativos</p>
     </header>
     <div class="menu">
-        <div class="menu-item" style="animation-delay: 0s;">
+        <div  style="animation-delay: 0s;">
+            <div class="menu-title">Profesora de la Catedra</div>
+            <a >Teresa Benítez</a>
+        </div>
+
+        <!-- Nueva opción centrada -->
+        <div class="menu-item full-width" style="animation-delay: 0s;">
+            <div class="menu-title">Integrantes</div>
+            <a >Agüero Rosa, Aliende Hector, Bertozzi Fernando, Stivens Danilo, Sierra Enzo</a>
+        </div>
+
+        <!-- Opciones existentes -->
+        <div class="menu-item" style="animation-delay: 0.1s;">
             <div class="menu-title">Guía Práctica 1</div>
             <a href="pdfs/guia1.pdf" target="_blank">Historia breve de las computadoras</a>
         </div>
-        <div class="menu-item" style="animation-delay: 0.1s;">
-            <div class="menu-title">Guía Práctica 2</div>
-            <a href="pdfs/guia2.pdf" target="_blank">CPU,Memoria,Dispositivos E/S</a>
-        </div>
         <div class="menu-item" style="animation-delay: 0.2s;">
+            <div class="menu-title">Guía Práctica 2</div>
+            <a href="pdfs/guia2.pdf" target="_blank">CPU, Memoria, Dispositivos E/S</a>
+        </div>
+        <div class="menu-item" style="animation-delay: 0.3s;">
             <div class="menu-title">Guía Práctica 3</div>
             <a href="pdfs/guia3.pdf" target="_blank">Sistemas Operativos</a>
         </div>
-        <div class="menu-item" style="animation-delay: 0.3s;">
+        <div class="menu-item" style="animation-delay: 0.4s;">
             <div class="menu-title">Guía Práctica 4</div>
             <a href="pdfs/guia4.pdf" target="_blank">Cuestionario Integrador de toda la Unidad 1 (Elementos de una Computadora)</a>
         </div>
-        <div class="menu-item" style="animation-delay: 0.4s;">
+        <div class="menu-item" style="animation-delay: 0.5s;">
             <div class="menu-title">Guía Práctica 5</div>
             <a href="pdfs/guia5.pdf" target="_blank">Algoritmos de Planificación de Procesos</a>
         </div>
-        <div class="menu-item" style="animation-delay: 0.5s;">
-            <div class="menu-title">Guía Práctica 6</div>
-            <a href="pdfs/guia6.pdf" target="_blank">Implementacion de la memoria virtual en Hardware</a>
-        </div>
         <div class="menu-item" style="animation-delay: 0.6s;">
+            <div class="menu-title">Guía Práctica 6</div>
+            <a href="pdfs/guia6.pdf" target="_blank">Implementación de la memoria virtual en Hardware</a>
+        </div>
+        <div class="menu-item" style="animation-delay: 0.7s;">
             <div class="menu-title">Guía Práctica 7</div>
             <a href="pdfs/guia7.pdf" target="_blank">Ejercicios con Archivos</a>
         </div>
-        <div class="menu-item" style="animation-delay: 0.7s;">
+        <div class="menu-item" style="animation-delay: 0.8s;">
             <div class="menu-title">Guía Práctica 8</div>
             <a href="pdfs/guia8.pdf" target="_blank">Redes de Datos en el Laboratorio</a>
         </div>
-        <div class="menu-item" style="animation-delay: 0.8s;">
+        <div class="menu-item" style="animation-delay: 0.9s;">
             <div class="menu-title">Guía Práctica 9</div>
-            <a href="pdfs/guia9.pdf" target="_blank">Escrito sobre el tema "Amenzas en nuestra vida Digital"</a>
+            <a href="pdfs/guia9.pdf" target="_blank">Escrito sobre el tema "Amenazas en nuestra vida Digital"</a>
         </div>
     </div>
 </body>
+</html>
+
 </html>
 
